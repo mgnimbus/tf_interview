@@ -2,6 +2,7 @@
 Interview questions
 # you can tell me about yourself and your exposer  on the terraform and AWS.
 # Let get started ,can you please tell me aboy yourself
+# Explain your recent project in terraform
 
 # Lets start from the basic questions 
 
@@ -47,7 +48,7 @@ Thank you <Name> Its Nice ir Great talking to you
   
 
 
-# What is Terraform?
+# What is Terraform? 
 
 Developed by HashiCorp, Terraform is an open-source Infrastructure-as-Code tool used by legions of DevOps teams to automate infrastructure tasks. This tool allows DevOps teams to deploy a single workflow for their multi-cloud setup. It supports all the leading public and private clouds, including Microsoft Azure, Amazon Web Services, and Google Cloud Platform. 
 
@@ -57,7 +58,7 @@ Terraform can be used to define the entire IT infrastructure in code form. One o
 
 Best practices for using Terraform include using modules, versioning your code, using remote state, and following the principle of least privilege.
 
-# 2. How do you manage secrets in Terraform?
+# 2. How do you manage secrets in Terraform? Best Praticies to utilise sensitive data
 
 Secrets should never be stored in your Terraform configuration files. Instead, you should use a tool like HashiCorp Vault to store and manage secrets.
 
@@ -92,7 +93,7 @@ This was the entire architecture of Terraform, including the two components; Cor
 
 A Terraform project typically consists of a main configuration file, which defines the desired state of the infrastructure, and one or more module files, which contain reusable code for provisioning resources.
 
-# 6. Terraform Workflow:
+# 6. Terraform Workflow: How does tf works
 There are three different stages in the Terraform Workflow: Write, Review, and Apply. These states are briefly explained below. 
 
 ## Stage 1: 
